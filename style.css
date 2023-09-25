@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Variables */
+:root {
+    --bg:#444;
+    --textColour: #fff;
+}
+body {
+    text-align: center;
+    background-color: var(--bg);
+}
+
+/* Big text */
+h1#BigText {
+    font-size : 120px;
+    color: var(--textColour);
+}
+
+/* Input field */
+input#textInput {
+    width: 200px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 0 0 10px var(--textColour);
+}
+
+/* div that makes it so text doesen't show in the border of monitor */
+div.text {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+/* Infobutton placement*/
+div#InfoButton {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Infobutton */
+div#InfoButton button {
+    border: 2px solid var(--textColour);
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    box-shadow: 0 0 5px var(--textColour);
+}
+/* Info button i */
+div#InfoButton button a {
+    color: var(--textColour);
+    padding: 5px 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
