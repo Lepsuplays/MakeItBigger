@@ -5,4 +5,4 @@ Simply just type in inputfield and it should be showing your text in your screen
 ## How this works?
 Here is a mindmap styled picture that shows what how this works.
 
-![Mindmap](./makeitbigger.dio.png)
+![Mindmap](./img/MakeTextBig.dio.png)
