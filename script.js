@@ -1,3 +1,4 @@
+var textData
 // Event listener that calls update text function when text in textbox changes
 document.getElementById("textInput").addEventListener("input", updateText);
 
