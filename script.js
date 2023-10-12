@@ -1,13 +1,5 @@
-// Variables
-var textData
-
-// Function that gets called when you load a website
-function refreshText(){
-    // Call functio that updates big text to text from check box
-    updateText()
-    // Recall this function after 50ms
-    setTimeout(refreshText, 50)
-}
+// Event listener that calls update text function when text in textbox changes
+document.getElementById("textInput").addEventListener("input", updateText);
 
 // Function that updates text
 function updateText() {
